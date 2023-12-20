@@ -326,7 +326,7 @@ test-log = { version = "0.2", default-features = false, features = ["trace"] }
 thiserror = "1.0.30"
 tikv-jemallocator = "0.5.0"
 time = "0.3.9"
-tokio = { version = "1.28", features = [
+tokio = { version = "1.35", features = [
     "fs",
     "macros",
     "net",
